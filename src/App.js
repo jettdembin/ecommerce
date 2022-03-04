@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 
-import Notice from "./Notice"
+import PromoBar from "./PromoBar"
 import Nav from "./Nav"
 import Carousel from "./Carousel"
 import CallToAction from "./CallToAction"
@@ -13,7 +13,7 @@ import Footer from "./Footer"
 function App() {
   return (
     <div className="App">
-      <Notice></Notice>
+      <PromoBar></PromoBar>
       <Nav></Nav>
       <Carousel></Carousel>
       <CallToAction></CallToAction>
