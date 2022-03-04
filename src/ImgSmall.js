@@ -1,0 +1,20 @@
+import React from "react";
+import "./ImgSmall.css";
+
+import Category from "./Category";
+
+function ImgSmall(props) {
+  return (
+    <div className="ImgSmall">
+      <img
+        src={props.imgSource}
+        alt={props.category}
+        height="213px"
+        width="100%"
+      />
+      <Category category={props.category} />
+    </div>
+  );
+}
+
+export default ImgSmall;

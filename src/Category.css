@@ -1,0 +1,17 @@
+.Category {
+  background-color: #10504F;
+  color: #FFFF;
+  height: 42px;
+}
+
+.Category h2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

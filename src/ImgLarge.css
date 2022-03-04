@@ -1,0 +1,4 @@
+.ImgLarge {
+  display: flex;
+  flex-direction: column;
+}

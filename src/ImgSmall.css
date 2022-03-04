@@ -1,0 +1,8 @@
+.ImgSmall {
+  display: flex;
+  flex-direction: column;
+}
+
+.ImgSmall img {
+  margin: 0;
+}
