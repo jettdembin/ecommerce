@@ -2,6 +2,15 @@
 
 }
 
-.carousel .thumb {
- display: none;
+.carousel .control-dots .dot {
+  box-shadow: none;
 }
+
+.carousel .thumb {
+  display: none;
+ }
+ 
+ .carousel .carousel-status {
+  display: none;
+  font-size : 0px;
+ }
