@@ -1,5 +1,11 @@
-.HeroCarousel-main-slide {
+.HeroCarousel-main-slide, .carousel-root , .carousel-slider {
+  height: 227px;
+  overflow: hidden;
+}
 
+.carousel .control-dots {
+  position: absolute;
+  bottom: 0;
 }
 
 .carousel .control-dots .dot {
@@ -12,5 +18,6 @@
  
  .carousel .carousel-status {
   display: none;
-  font-size : 0px;
  }
+
+ @import url('react-responsive-carousel/lib/styles/carousel.min.css');

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.ShopBtn {
+
+}
+
+.ShopBtn-btn {
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 124.55px;
+  height: 42px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  border: none;
+}

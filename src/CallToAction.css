@@ -1,0 +1,26 @@
+.CallToAction {
+  background-color: #EFEFEF;
+  color: #10504F;
+  height: 177px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 11px;
+}
+
+.CallToAction-header {
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+
+.CallToAction-info {
+  font-size: 14px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

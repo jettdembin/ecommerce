@@ -1,10 +1,15 @@
 import React from "react";
+import "./CallToAction.css";
 
-function CallToAction() {
+import ShopBtn from "./ShopBtn";
+
+function CallToAction(props) {
   return (
-    <>
-    CallToAction
-    </>
+    <div className="CallToAction">
+      <h1 className="CallToAction-header">{props.header}</h1>
+      <p className="CallToAction-info">{props.info}</p>
+      <ShopBtn/>
+    </div>
   )
 }
 

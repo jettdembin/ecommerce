@@ -15,15 +15,15 @@ function App() {
   return (
     <div className="App">
       <PromoBar></PromoBar>
-      <Nav></Nav>
-      <HeroCarousel></HeroCarousel>
-      <CallToAction></CallToAction>
-      <Gallery></Gallery>
-      <ProductCarousel></ProductCarousel>
+      <Nav />
+      <HeroCarousel />
+      <CallToAction header="Shop New Arrivals" info="Our coolest new items are waiting for you!" />
+      <Gallery />
+      <ProductCarousel />
       <img src="" alt="" />
-      <CallToAction></CallToAction>
-      <Subscribe></Subscribe>
-      <Footer></Footer>
+      <CallToAction header="Our Favorite Tees" info="Everyday tees you need!" />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }
