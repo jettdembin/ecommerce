@@ -1,0 +1,14 @@
+.PromoBar {
+  height: 46px;
+  display: grid;
+  place-items: center;
+  background-color: black;
+  color : rgb(219, 219, 219);
+  font-family: 'Lato', sans-serif;;
+}
+
+.PromoBar-Info {
+  letter-spacing: 1.2px;
+  line-height: 17px;
+  font-size: 14px;
+}

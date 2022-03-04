@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.Nav {
+  background-color: #0e4c4b;
+  color: #fff;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.Nav-right {
+  display: flex;
+}
+
+.Nav-right-navigation:nth-child(2), .Nav-right-navigation:nth-child(3) {
+  margin-left: 21.6px;
+}
+
+.Nav-left {
+  display: flex;
+}
+
+.Nav-left-navigation:first-child {
+  margin-right: 21.6px;
+}
