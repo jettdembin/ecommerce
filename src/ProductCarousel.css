@@ -1,0 +1,43 @@
+.ProductCarousel-header {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.ProductCarousel-main-slide-cntr {
+  height: auto;
+  padding: 20px;
+}
+
+.ProductCarousel-main-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductCarousel {
+  overflow: visible;
+}
+
+.carousel.carousel-slider, .carousel-root:nth-of-type(1) {
+  overflow: visible;
+}
+
+.control-arrow {
+  color: #0000;
+}
+
+.ProductCarousel .dot {
+  visibility: hidden;
+  background-color: #fff;
+}
+
+.ProductCarousel .carousel.carousel-slider .control-arrow:hover {
+  outline: black;
+  background-color: black;
+  opacity: 1;
+  outline: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

@@ -1,15 +1,14 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 
-import PromoBar from "./PromoBar"
-import Nav from "./Nav"
-import HeroCarousel from "./HeroCarousel"
-import CallToAction from "./CallToAction"
-import Gallery from "./Gallery"
-import ProductCarousel from "./ProductCarousel"
-import Subscribe from "./Subscribe"
-import Footer from "./Footer"
-
+import PromoBar from "./PromoBar";
+import Nav from "./Nav";
+import HeroCarousel from "./HeroCarousel";
+import CallToAction from "./CallToAction";
+import Gallery from "./Gallery";
+import ProductCarousel from "./ProductCarousel";
+import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,9 +16,12 @@ function App() {
       <PromoBar></PromoBar>
       <Nav />
       <HeroCarousel />
-      <CallToAction header="Shop New Arrivals" info="Our coolest new items are waiting for you!" />
+      <CallToAction
+        header="Shop New Arrivals"
+        info="Our coolest new items are waiting for you!"
+      />
       <Gallery />
-      <ProductCarousel />
+      <ProductCarousel category="Shop New Arrivals" />
       <img src="" alt="" />
       <CallToAction header="Our Favorite Tees" info="Everyday tees you need!" />
       <Subscribe />

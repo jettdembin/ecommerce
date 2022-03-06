@@ -3,7 +3,9 @@ import "./HeroCarousel.css";
 
 import { Carousel } from "react-responsive-carousel";
 
-import hero1 from "./images/hero-mobile.jpg";
+import hero1 from "./images/hero-1-mobile.jpg";
+import hero2 from "./images/hero-2-mobile.jpg";
+import hero3 from "./images/hero-3-mobile.jpg";
 
 function HeroCarousel() {
   return (
@@ -18,17 +20,13 @@ function HeroCarousel() {
         <img src={hero1} height="277px" />
       </div>
       <div>
-        <img src={hero1} height="277px" />
+        <img src={hero2} height="277px" />
       </div>
       <div>
-        <img src={hero1} height="277px" />
+        <img src={hero3} height="277px" />
       </div>
     </Carousel>
   );
 }
 
 export default HeroCarousel;
-
-// Don't forget to include the css in your page
-// <link rel="stylesheet" href="carousel.css"/>
-// Begin DemoSliderControls
