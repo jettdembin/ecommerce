@@ -8,12 +8,12 @@ function LinkCategory(props) {
     <div className="LinkCategory">
       <div className="LinkCategory-header-cntr">
         <h1 className="LinkCategory-header">{props.linkCategory}</h1>
-        <mui.RemoveIcon />
+        <mui.RemoveIcon className="LinkCategory-icon" />
       </div>
       <ul className="LinkCategory-link-cntr">
         <li className="LinkCategory-link">Accessibility</li>
         <li className="LinkCategory-link">Contact Us</li>
-        <li className="LinkCategory-linkr">Return Policy</li>
+        <li className="LinkCategory-link">Return Policy</li>
         <li className="LinkCategory-link">FAQ</li>
         <li className="LinkCategory-link">Gift Certificates</li>
         <li className="LinkCategory-link">Wishlist</li>

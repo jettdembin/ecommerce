@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.ImgSmall:hover {
+  cursor: pointer;
+}
+
 .ImgSmall img {
   margin: 0;
 }

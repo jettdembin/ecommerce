@@ -19,3 +19,7 @@
 .Footer-social-icon {
   margin-right: 35px;
 }
+
+.Footer-social-icon:hover {
+  cursor: pointer;
+}

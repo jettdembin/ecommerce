@@ -13,9 +13,18 @@
   line-height: 39px;
 }
 
+.LinkCategory-icon:hover {
+  cursor: pointer;
+}
+
 .LinkCategory-link-cntr {
   list-style-type: none;
   font-family: Lato, sans-serif;
   font-size: 12px;
   line-height: 30px;
+}
+
+
+.LinkCategory-link:hover {
+  cursor: pointer;
 }
