@@ -6,6 +6,8 @@ export { default as DeleteForeverIcon } from "@mui/icons-material/DeleteForever"
 
 export { default as EditIcon } from "@mui/icons-material/Edit";
 
+export { default as EmailIcon } from  '@mui/icons-material/Email';
+
 export { default as PersonIcon } from "@mui/icons-material/Person";
 
 export { default as Search } from "@mui/icons-material/Search";
