@@ -1,0 +1,21 @@
+.Footer {
+  background-color: #000000;
+  color: #FFFF;
+  padding: 20px;
+}
+
+.Footer-socials-cntr {
+  margin-top: 22px;
+}
+
+.Footer-socials-header {
+  margin-bottom: 11px;
+  font-family: Pacifico, cursive;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 39px;
+}
+
+.Footer-social-icon {
+  margin-right: 35px;
+}
