@@ -11,7 +11,7 @@ function ProductCarousel(props) {
   return (
     <div className="ProductCarousel">
       <h1 className="ProductCarousel-header">{props.category}</h1>
-      <Carousel className="ProductCarousel-main-slide-cntr" showArrows={true}>
+      <Carousel className="ProductCarousel-main-slide-cntr" showArrows={true} showThumbs={false}>
         <div className="ProductCarousel-main-slide">
           <Product
             img={product1}

@@ -4,10 +4,6 @@
   height: 42px;
 }
 
-.Category:hover {
-  cursor: pointer;
-}
-
 .Category h2 {
   height: 100%;
   display: flex;

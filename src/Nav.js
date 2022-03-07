@@ -8,27 +8,35 @@ function Nav() {
     <div className="Nav">
       <div className="Nav-left">
         <div className="Nav-left-navigation">
-          <mui.Dehaze aria-label="toggle-menu"/>
+          <mui.Dehaze aria-label="toggle-menu" />
         </div>
         <div className="Nav-left-navigation">
-          <mui.Add  role="presentation" />
+          <mui.Add role="presentation" />
         </div>
+      </div>
+      <div className="Nav-middle">
+        <ul>
+          <li>MEN'S</li>
+          <li>WOMEN'S</li>
+          <li>ACCESSORIES</li>
+          <li>SALE!</li>
+        </ul>
       </div>
       <div>
         <div className="Nav-right">
           <div className="Nav-right-navigation">
-            <mui.Search  aria-label="search" />
+            <mui.Search aria-label="search" />
           </div>
           <div className="Nav-right-navigation">
-            <mui.PersonIcon aria-label="account"/>
+            <mui.PersonIcon aria-label="account" />
           </div>
           <div className="Nav-right-navigation">
-            <mui.ShoppingCartIcon  aria-label="cart" />
+            <mui.ShoppingCartIcon aria-label="cart" />
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Nav;

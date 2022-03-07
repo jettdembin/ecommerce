@@ -8,6 +8,7 @@ function LinkCategory(props) {
   const toggleMenu = () => {
     setMenu(!isExpanded);
   };
+
   return (
     <div className="LinkCategory">
       <div className="LinkCategory-header-cntr">

@@ -15,6 +15,7 @@ function HeroCarousel() {
       infiniteLoop={true}
       autoPlay={true}
       interval={3000}
+      showThumbs={false}
     >
       <div>
         <img src={hero1} height="277px" />

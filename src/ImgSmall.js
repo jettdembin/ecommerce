@@ -9,7 +9,6 @@ function ImgSmall(props) {
       <img
         src={props.imgSource}
         alt={props.category}
-        height="213px"
         width="100%"
       />
       <Category category={props.category} />

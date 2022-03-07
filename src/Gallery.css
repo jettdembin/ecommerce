@@ -8,3 +8,9 @@
   gap: 10px;
   margin-bottom: 10px;
 }
+
+@media screen and (min-width: 480px) {
+  .Gallery-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
