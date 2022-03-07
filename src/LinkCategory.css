@@ -1,9 +1,12 @@
 
 .LinkCategory-header-cntr {
   padding: 13px 0 11px 0;
+}
+
+.LinkCategory-header-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .LinkCategory-header {
