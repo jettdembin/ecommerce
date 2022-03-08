@@ -41,13 +41,33 @@
   margin-right: 21.6px;
 }
 
+.Nav-left-navigation-logo {
+  width: 93px;
+  height: 77px;
+}
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 480px) {
   .Nav-middle {
     display: block;
   }
   .Nav-middle ul {
     width: 400px;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+  .Nav {
+    height: 138px;
+  }
+  .Nav-left-navigation:first-of-type {
+    display: none;
+  }
+  .Nav-left-navigation-logo {
+    margin-left: 48px;
+  }
+  .Nav-right {
+    margin-right: 48px;
   }
 }
 

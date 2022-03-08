@@ -3,7 +3,10 @@ import "./Nav.css";
 
 import * as mui from "./mui";
 
+import logo from "./images/logo.png"
+
 function Nav() {
+
   return (
     <div className="Nav">
       <div className="Nav-left">
@@ -11,7 +14,7 @@ function Nav() {
           <mui.Dehaze aria-label="toggle-menu" />
         </div>
         <div className="Nav-left-navigation">
-          <mui.Add role="presentation" />
+          <img className="Nav-left-navigation-logo" src={logo} alt="logo" />
         </div>
       </div>
       <div className="Nav-middle">
