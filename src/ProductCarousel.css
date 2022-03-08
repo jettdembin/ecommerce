@@ -16,16 +16,17 @@
 
 .ProductCarousel-main-slide-cntr {
   height: auto;
-  padding: 20px;
+  padding: 0 130px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .ProductCarousel-main-slide {
+  padding: 0 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .ProductCarousel {
@@ -88,10 +89,11 @@
   
   /* Both Arrows */
   .carousel .control-arrow::before, .carousel.carousel-slider .control-arrow::before {
+    position: absolute;
     background-color: transparent;
     width: 20px;
     height: 20px;
-    margin-top: 200px;
+    margin-top: 120px;
     box-shadow: -2px 2px 0 black;
     display: inline-block;
     border-top: none;
@@ -100,11 +102,13 @@
   }
   /* Left Arrow */
   .carousel .control-prev.control-arrow::before {
+    right: 35px;
     transform: rotate(45deg);
     border-right: none;
   }
   /* Right Arrow */
   .carousel .control-next.control-arrow::before {
+    left: 35px;
     transform: rotate(-135deg);
     border-left: none;
   }
