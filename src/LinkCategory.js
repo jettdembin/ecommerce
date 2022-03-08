@@ -3,14 +3,36 @@ import "./LinkCategory.css";
 
 import * as mui from "./mui";
 
+import { useMediaQuery } from "react-responsive";
+
 function LinkCategory(props) {
   const [isExpanded, setMenu] = useState(false);
   const toggleMenu = () => {
     setMenu(!isExpanded);
   };
 
+  const checkIfMediumPlus = useMediaQuery({
+    query: "(min-width: 480px)",
+  });
+
   return (
     <div className="LinkCategory">
+      {checkIfMediumPlus ? 
+      <div className="LinkCategory-header-cntr">
+        <div className="LinkCategory-header-wrapper">
+          <h1 className="LinkCategory-header">{props.linkCategory}</h1>
+        </div>
+        <div>
+          <ul className="LinkCategory-link-cntr">
+          {props.links.map(link => (
+            <>
+              <li className="LinkCategory-link">{link}</li>
+            </>
+          ))}
+          </ul>
+        </div>
+      </div>
+      :
       <div className="LinkCategory-header-cntr">
         {isExpanded ? (
           <>
@@ -23,12 +45,11 @@ function LinkCategory(props) {
             </div>
             <div>
               <ul className="LinkCategory-link-cntr">
-                <li className="LinkCategory-link">Accessibility</li>
-                <li className="LinkCategory-link">Contact Us</li>
-                <li className="LinkCategory-link">Return Policy</li>
-                <li className="LinkCategory-link">FAQ</li>
-                <li className="LinkCategory-link">Gift Certificates</li>
-                <li className="LinkCategory-link">Wishlist</li>
+              {props.links.map(link => (
+                <>
+                  <li className="LinkCategory-link">{link}</li>
+                </>
+              ))}
               </ul>
             </div>
           </>
@@ -39,6 +60,7 @@ function LinkCategory(props) {
           </div>
         )}
       </div>
+      }
     </div>
   );
 }

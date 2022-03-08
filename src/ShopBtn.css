@@ -13,8 +13,13 @@
   border: none;
 }
 
-.App-bottom-hero .HeroSlide .CallToAction .ShopBtn-btn {
-  background-color: #10504F;
+
+.App .HeroSlide .CallToAction .ShopBtn-btn,  .App-bottom-hero .HeroSlide .CallToAction .ShopBtn-btn{
   width: 129px;
   height: 43px;
+}
+
+
+.App-bottom-hero .HeroSlide .CallToAction .ShopBtn-btn {
+  background-color: #10504F;
 }
