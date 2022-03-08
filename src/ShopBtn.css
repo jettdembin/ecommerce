@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
-.ShopBtn {
-
-}
 
 .ShopBtn-btn {
   background-color: #000000;
@@ -14,4 +11,10 @@
   font-size: 12px;
   line-height: 14px;
   border: none;
+}
+
+.App-bottom-hero .HeroSlide .CallToAction .ShopBtn-btn {
+  background-color: #10504F;
+  width: 129px;
+  height: 43px;
 }

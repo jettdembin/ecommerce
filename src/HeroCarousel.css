@@ -23,10 +23,7 @@
  
 @media screen and (min-width: 480px) {
   .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
-    height: 500px;
-  }
-  .HeroCarousel-main-slide div>img {
-    height: 700px;
+    height: 638px;
   }
 }
 

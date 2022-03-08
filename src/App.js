@@ -7,12 +7,15 @@ import HeroCarousel from "./HeroCarousel";
 import CallToAction from "./CallToAction";
 import Gallery from "./Gallery";
 import ProductCarousel from "./ProductCarousel";
+import HeroSlide from "./HeroSlide";
 import Subscribe from "./Subscribe";
 import Footer from "./Footer";
 
 import hero4 from "./images/hero-4-mobile.jpg";
 
 import { useMediaQuery } from "react-responsive";
+
+import hero4Desktop from "./images/hero-4-desktop.jpg";
 
 function App() {
   const checkIfMediumPlus = useMediaQuery({
@@ -28,7 +31,14 @@ function App() {
           <HeroCarousel />
           <Gallery />
           <ProductCarousel category="Shop New Arrivals" />
-          <HeroCarousel />
+          <div className="App-bottom-hero">
+            <HeroSlide
+              img={hero4Desktop}
+              color="#FFFF"
+              header="Our Favorite Tees"
+              info="Everday Tees you need"
+            />
+          </div>
           <Subscribe />
           <Footer />
         </>

@@ -18,6 +18,15 @@
 
 
 @media screen and (min-width: 480px) {
+  .App-bottom-hero {
+    position: relative;
+  }
+  .App-bottom-hero .HeroSlide .CallToAction {
+    position: absolute;
+    margin-top: 0px;
+    right: 52px;
+    top: 52px;
+  }
   .HeroSlide .CallToAction-header {
     font-size: 40px;
   }
