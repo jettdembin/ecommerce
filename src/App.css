@@ -19,7 +19,6 @@ a {
 }
 
 button.control-arrow.control-next.control-disabled::before, button.control-arrow.control-prev.control-disabled::before{
-  display: none;
   visibility: none;
 }
 

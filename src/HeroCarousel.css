@@ -8,6 +8,12 @@
   overflow: hidden;
 }
 
+.HeroCarousel-main-slide button::before {
+  box-shadow: none;
+  opacity: 0;
+  visibility: none;
+}
+
 .carousel .control-dots {
   position: absolute;
   bottom: 0;
