@@ -20,8 +20,14 @@
   display: none;
  }
 
+ @media screen and (min-width: 600px) {
+  .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
+    height: 350px;
+  }
+}
+
  
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 850px) {
   .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
     height: 638px;
   }

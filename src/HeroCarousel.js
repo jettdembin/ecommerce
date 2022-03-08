@@ -17,7 +17,7 @@ import hero3Desktop from "./images/hero-3-desktop.jpg";
 
 function HeroCarousel() {
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 600px)",
+    query: "(min-width: 850px)",
   });
 
   return (

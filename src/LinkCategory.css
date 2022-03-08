@@ -33,8 +33,15 @@
   cursor: pointer;
 }
 
-
 @media screen and (min-width: 480px) {
+  .LinkCategory-link-cntr {
+    font-size: 16px;
+    line-height: 36px;
+  }
+}
+
+
+@media screen and (min-width: 850px) {
   .LinkCategory-link-cntr {
     font-size: 18px;
     line-height: 40px;

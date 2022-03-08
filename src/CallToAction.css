@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 850px) {
   .CallToAction {
     margin-top: -110px;
   }

@@ -12,7 +12,7 @@ function LinkCategory(props) {
   };
 
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 480px)",
+    query: "(min-width: 850px)",
   });
 
   return (

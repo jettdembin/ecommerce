@@ -12,7 +12,7 @@ function Footer() {
   const links2 = ["About Us", "Careers", "Press", "Affiliations"];
 
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 480px)",
+    query: "(min-width: 850px)",
   });
 
   return (

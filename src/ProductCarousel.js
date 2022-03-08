@@ -12,7 +12,7 @@ import product1 from "./images/product-1-image.jpg";
 
 function ProductCarousel(props) {
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 800px)",
+    query: "(min-width: 850px)",
   });
 
   return (

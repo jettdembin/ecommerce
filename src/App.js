@@ -19,7 +19,7 @@ import hero4Desktop from "./images/hero-4-desktop.jpg";
 
 function App() {
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 480px)",
+    query: "(min-width: 850px)",
   });
 
   return (
