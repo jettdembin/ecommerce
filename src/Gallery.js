@@ -14,7 +14,7 @@ import accessoriesDesktop from "./images/accessories-desktop.jpg";
 
 function Gallery() {
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 480px)",
+    query: "(min-width: 800px)",
   });
 
   return (

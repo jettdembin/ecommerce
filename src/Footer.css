@@ -10,7 +10,7 @@
 
 .Footer-socials {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .Footer-socials-header {
@@ -19,7 +19,6 @@
   font-size: 22px;
   font-weight: 400;
   line-height: 39px;
-  text-align: center;
 }
 
 .Footer-social-icon {
@@ -51,5 +50,11 @@
 @media screen and (min-width: 480px) {
   .Footer-social-icon {
     margin-right: 0px;
+  }
+  .Footer-socials {
+    justify-content: center;
+  }
+  .Footer-socials-header {
+    text-align: center;
   }
 }

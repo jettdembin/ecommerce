@@ -12,7 +12,7 @@ import product1 from "./images/product-1-image.jpg";
 
 function ProductCarousel(props) {
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 480px)",
+    query: "(min-width: 800px)",
   });
 
   return (
@@ -76,7 +76,7 @@ function ProductCarousel(props) {
         </Carousel> 
       </div>
       :
-      <Carousel className="ProductCarousel-main-slide-cntr" showArrows={true} showThumbs={false}>
+      <Carousel className="ProductCarousel-main-slide-cntr" showArrows={false} showThumbs={false}>
         <div className="ProductCarousel-main-slide">
           <Product
             img={product1}

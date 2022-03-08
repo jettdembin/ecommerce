@@ -7,3 +7,10 @@
 button:hover {
   cursor: pointer;
 }
+
+
+@media screen and (min-width: 600px) {
+  .App-desktop {
+    display: block;
+  }
+}

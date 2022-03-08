@@ -13,7 +13,7 @@
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 800px) {
   .Gallery-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;

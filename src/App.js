@@ -53,15 +53,17 @@ function App() {
           />
           <Gallery />
           <ProductCarousel category="Shop New Arrivals" />
-          <img
-            src={hero4}
-            alt="display image"
-            style={{ width: "100%", marginTop: "50px", marginBottom: "-5px" }}
-          />
-          <CallToAction
-            header="Our Favorite Tees"
-            info="Everyday tees you need!"
-          />
+          <div className="App-desktop">
+            <img
+              src={hero4}
+              alt="display image"
+              style={{ width: "100%", marginTop: "50px", marginBottom: "-5px" }}
+            />
+            <CallToAction
+              header="Our Favorite Tees"
+              info="Everyday tees you need!"
+            />
+          </div>
           <Subscribe />
           <Footer />
         </>

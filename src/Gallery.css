@@ -9,7 +9,7 @@
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 800px) {
   .Gallery {
     padding: 48px;
   }
