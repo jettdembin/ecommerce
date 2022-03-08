@@ -25,12 +25,12 @@ function App() {
   return (
     <div className="App">
       {checkIfMediumPlus ? (
-        <>
+        <div className="App-desktop">
           <PromoBar></PromoBar>
           <Nav />
-          <HeroCarousel />
+          <HeroCarousel className="App-desktop-arrow" />
           <Gallery />
-          <ProductCarousel category="Shop New Arrivals" />
+          <ProductCarousel category="New Arrivals" />
           <div className="App-bottom-hero">
             <HeroSlide
               img={hero4Desktop}
@@ -41,9 +41,9 @@ function App() {
           </div>
           <Subscribe />
           <Footer />
-        </>
+        </div>
       ) : (
-        <>
+        <div className="App-mobile">
           <PromoBar></PromoBar>
           <Nav />
           <HeroCarousel />
@@ -56,7 +56,7 @@ function App() {
           <div className="App-desktop">
             <img
               src={hero4}
-              alt="display image"
+              alt=""
               style={{ width: "100%", marginTop: "50px", marginBottom: "-5px" }}
             />
             <CallToAction
@@ -66,7 +66,7 @@ function App() {
           </div>
           <Subscribe />
           <Footer />
-        </>
+        </div>
       )}
     </div>
   );

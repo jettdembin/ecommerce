@@ -20,7 +20,7 @@ function ProductCarousel(props) {
       <h1 className="ProductCarousel-header">{props.category}</h1>
       {checkIfMediumPlus ?
       <div className="ProductCarousel-carousel-cntr">
-        <Carousel className="ProductCarousel-main-slide-cntr" showArrows={true} showThumbs={false}>
+        <Carousel className="ProductCarousel-main-slide-cntr" showArrows={false} showThumbs={false}>
           <div className="ProductCarousel-main-slide">
             <Product
               img={product1}
@@ -76,7 +76,7 @@ function ProductCarousel(props) {
         </Carousel> 
       </div>
       :
-      <Carousel className="ProductCarousel-main-slide-cntr" showArrows={false} showThumbs={false}>
+      <Carousel className="ProductCarousel-main-slide-cntr" showArrows={true} showThumbs={false}>
         <div className="ProductCarousel-main-slide">
           <Product
             img={product1}

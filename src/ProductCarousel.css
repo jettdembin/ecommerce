@@ -1,7 +1,10 @@
 .ProductCarousel {
+  width: 100%;
+  height: 300px;
 }
 
 .ProductCarousel-carousel-cntr {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,21 +15,23 @@
   font-family: 'Pacifico', cursive;
   font-size: 26px;
   font-weight: 400;
+  line-height: 46px;
 }
 
 .ProductCarousel-main-slide-cntr {
+  width: 100%;
   height: auto;
-  padding: 0 130px;
+  padding: 0 0px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .ProductCarousel-main-slide {
-  padding: 0 20px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .ProductCarousel {
@@ -46,71 +51,107 @@
   background-color: #fff;
 }
 
-.ProductCarousel .carousel.carousel-slider .control-arrow {
-  color: red;
+/* Both Arrows */
+.carousel .control-arrow::before, .carousel.carousel-slider .control-arrow::before {
+  position: absolute;
   background-color: transparent;
+  width: 10px;
+  height: 10px;
+  margin-top: 40px;
+  box-shadow: -2px 2px 0 black;
+  display: inline-block;
+  border-top: none;
+  border-bottom: none;
+  content: '';  
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background: none;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  transition: none;
   opacity: 1;
+}
+/* Left Arrow */
+.carousel .control-prev.control-arrow::before {
+  right: -25px;
+  transform: rotate(45deg);
+  border-right: none;
+}
+/* Right Arrow */
+.carousel .control-next.control-arrow::before {
+  left: -25px;
+  transform: rotate(-135deg);
+  border-left: none;
+}
+
+/* Disabled Arrow */
+.carousel .control-disabled.control-arrow {
+  display: block;
 }
 
 @media screen and (min-width: 350px) {
+  .ProductCarousel {
+    width: 100%;
+    height: 320px;
+  }
+
   .ProductCarousel-main-slide-cntr {
     margin-bottom: 40px;
+  }
+  .ProductCarousel-header {
+    margin-bottom: 20px;
+  }
+  /* Left Arrow */
+  .carousel .control-prev.control-arrow::before {
+    right: -20px;
+  }
+  /* Right Arrow */
+  .carousel .control-next.control-arrow::before {
+    left: -20px;
   }
 }
 
 @media screen and (min-width: 400px) {
   .ProductCarousel-main-slide-cntr {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 430px) {
+  .ProductCarousel-header {
+    margin-bottom: 15px;
+  }
+
   .ProductCarousel-main-slide-cntr {
     margin-bottom: 90px;
   }
 }
 
-@media screen and (min-width: 470px) {
+@media screen and (min-width: 480px) {
   .ProductCarousel {
-    height: 480px;
-    }
+    height: 400px;
+  }
+  .ProductCarousel-header {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 500px) {
   .ProductCarousel {
-    height: 540px;
-    }
+    height: 430px;
+  }
 }
 
 @media screen and (min-width: 590px) {
   .ProductCarousel {
-  height: 580px;
+    height: 580px;
+    padding: 0 20px;
   }
-  
   /* Both Arrows */
   .carousel .control-arrow::before, .carousel.carousel-slider .control-arrow::before {
-    position: absolute;
-    background-color: transparent;
     width: 20px;
     height: 20px;
     margin-top: 120px;
-    box-shadow: -2px 2px 0 black;
-    display: inline-block;
-    border-top: none;
-    border-bottom: none;
-    content: '';  
-  }
-  /* Left Arrow */
-  .carousel .control-prev.control-arrow::before {
-    right: 35px;
-    transform: rotate(45deg);
-    border-right: none;
-  }
-  /* Right Arrow */
-  .carousel .control-next.control-arrow::before {
-    left: 35px;
-    transform: rotate(-135deg);
-    border-left: none;
   }
 
   /* Disabled Arrow */
@@ -118,5 +159,17 @@
     display: block;
   }
 }
+
+@media screen and (min-width: 850px) {
+  .ProductCarousel {
+    height: 705px;
+  }
+  .ProductCarousel-header {
+    font-size: 60px;
+    line-height: 105px;
+    margin-bottom: 39px;
+  }
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

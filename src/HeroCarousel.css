@@ -1,3 +1,8 @@
+.HeroCarousel {
+  height: 100px;
+  overflow: hidden;
+}
+
 .HeroCarousel-main-slide, .carousel-root , .carousel-slider {
   height: 227px;
   overflow: hidden;
@@ -19,6 +24,18 @@
  .carousel .carousel-status {
   display: none;
  }
+
+ @media screen and (min-width: 270px) {
+  .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
+    height: 250px;
+  }
+}
 
  @media screen and (min-width: 600px) {
   .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {

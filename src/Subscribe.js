@@ -15,7 +15,7 @@ function Subscribe() {
 
 
   const checkIfMediumPlus = useMediaQuery({
-    query: "(min-width: 650px)",
+    query: "(min-width: 850px)",
   });
 
   return (
@@ -23,7 +23,7 @@ function Subscribe() {
       {checkIfMediumPlus ? 
         <div className="Subscribe-cntr-desktop">
             <h2 className="Subscribe-header">
-              <EmailIcon style={{width:"100px", fontSize:"60px"}}/>
+              <EmailIcon style={{width:"2em", height:"2em", marginRight:"10px"}}/>
               Sign Up and Stay Connected
             </h2>
             <div className="Subscribe-info-cntr">
@@ -44,7 +44,7 @@ function Subscribe() {
       <>
         <div>
           <h2 className="Subscribe-header">
-            <EmailIcon />
+            <EmailIcon className="Subscribe-icon" style={{marginRight:"10px"}}/>
             Sign Up and Stay Connected
           </h2>
           <p className="Subscribe-info">

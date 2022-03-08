@@ -82,6 +82,21 @@ input[type="text"] {
     height: 332px;
   }
   .Subscribe-header {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .Subscribe-info {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .Subscribe {
+    height: 332px;
+  }
+  .Subscribe-header {
     font-size: 40px;
     line-height: 70px;
   }

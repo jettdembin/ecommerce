@@ -20,6 +20,11 @@
   line-height: 14.4px;
 }
 
+.Product-info img {
+  width: 146.67px;
+  height: 220px;
+}
+
 .Product-info-price {
   color: #10504F;
   font-family: 'Pacifico', cursive;
@@ -34,13 +39,15 @@
 }
  
 @media screen and (min-width: 480px) {
-  /* .Product-info img {
-    height: 300px;
-  } */
+  .Product-info img {
+    height: 270px;
+    width: 220.67px;
+  }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 590px) {
   .Product-info img {
+    width: 280px;
     height: 420px;
   }
 }

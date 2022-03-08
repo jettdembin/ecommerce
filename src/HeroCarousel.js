@@ -51,13 +51,13 @@ function HeroCarousel() {
         showThumbs={false}
         >
         <div>
-          <img src={hero1Mobile} />
+          <img src={hero1Mobile} alt="" />
         </div>
         <div>
-          <img src={hero2Mobile} />
+          <img src={hero2Mobile} alt="" />
         </div>
         <div>
-          <img src={hero3Mobile} />
+          <img src={hero3Mobile} alt="" />
         </div>
         </Carousel>}
     </>
