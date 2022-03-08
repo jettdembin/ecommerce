@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.d974f84a.css",
+    "main.js": "/ecommerce/static/js/main.ad7098c1.js",
+    "static/js/787.dcc73137.chunk.js": "/ecommerce/static/js/787.dcc73137.chunk.js",
+    "static/media/hero-2-desktop.jpg": "/ecommerce/static/media/hero-2-desktop.0cfdba71f2b34df382ab.jpg",
+    "static/media/hero-2-mobile.jpg": "/ecommerce/static/media/hero-2-mobile.0cfdba71f2b34df382ab.jpg",
+    "static/media/hero-4-desktop.jpg": "/ecommerce/static/media/hero-4-desktop.d2042f0c8619b51f3b35.jpg",
+    "static/media/hero-1-desktop.jpg": "/ecommerce/static/media/hero-1-desktop.56f856cdf70c4b400e2a.jpg",
+    "static/media/hero-3-desktop.jpg": "/ecommerce/static/media/hero-3-desktop.e2dcc8079d86bd120be7.jpg",
+    "static/media/hero-3-mobile.jpg": "/ecommerce/static/media/hero-3-mobile.e2dcc8079d86bd120be7.jpg",
+    "static/media/accessories-desktop.jpg": "/ecommerce/static/media/accessories-desktop.b1c0af4897c933f71809.jpg",
+    "static/media/womens-mobile.jpg": "/ecommerce/static/media/womens-mobile.edcd1cb7322a4ed3dd85.jpg",
+    "static/media/product-1-image.jpg": "/ecommerce/static/media/product-1-image.6b4b1fe06fcf3931db2c.jpg",
+    "static/media/mens-mobile.jpg": "/ecommerce/static/media/mens-mobile.1e11c210ee46a10cd6b5.jpg",
+    "static/media/hero-4-mobile.jpg": "/ecommerce/static/media/hero-4-mobile.60540daf3bc6b4d886b3.jpg",
+    "static/media/hero-1-mobile.jpg": "/ecommerce/static/media/hero-1-mobile.aa201587451cbf808c4e.jpg",
+    "static/media/accessories-mobile.jpg": "/ecommerce/static/media/accessories-mobile.14dcef094efced8608fc.jpg",
+    "index.html": "/ecommerce/index.html",
+    "main.d974f84a.css.map": "/ecommerce/static/css/main.d974f84a.css.map",
+    "main.ad7098c1.js.map": "/ecommerce/static/js/main.ad7098c1.js.map",
+    "787.dcc73137.chunk.js.map": "/ecommerce/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d974f84a.css",
+    "static/js/main.ad7098c1.js"
+  ]
+}
