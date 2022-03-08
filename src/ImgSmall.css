@@ -16,5 +16,10 @@
 @media screen and (min-width: 480px) {
   .Gallery-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .ImgSmall img {
+    margin: 0;
+    height: 570px;
   }
 }

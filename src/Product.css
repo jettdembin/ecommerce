@@ -32,3 +32,15 @@
   font-weight: 100;
   font-size: 28px;
 }
+ 
+@media screen and (min-width: 480px) {
+  /* .Product-info img {
+    height: 300px;
+  } */
+}
+
+@media screen and (min-width: 600px) {
+  .Product-info img {
+    height: 420px;
+  }
+}

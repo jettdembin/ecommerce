@@ -12,26 +12,50 @@ import Footer from "./Footer";
 
 import hero4 from "./images/hero-4-mobile.jpg";
 
+import { useMediaQuery } from "react-responsive";
+
 function App() {
+  const checkIfMediumPlus = useMediaQuery({
+    query: "(min-width: 480px)",
+  });
+
   return (
     <div className="App">
-      <PromoBar></PromoBar>
-      <Nav />
-      <HeroCarousel />
-      <CallToAction
-        header="Shop New Arrivals"
-        info="Our coolest new items are waiting for you!"
-      />
-      <Gallery />
-      <ProductCarousel category="Shop New Arrivals" />
-      <img
-        src={hero4}
-        alt="display image"
-        style={{ width: "100%", marginTop: "50px" }}
-      />
-      <CallToAction header="Our Favorite Tees" info="Everyday tees you need!" />
-      <Subscribe />
-      <Footer />
+      {checkIfMediumPlus ? (
+        <>
+          <PromoBar></PromoBar>
+          <Nav />
+          <HeroCarousel />
+          <Gallery />
+          <ProductCarousel category="Shop New Arrivals" />
+          <HeroCarousel />
+          <Subscribe />
+          <Footer />
+        </>
+      ) : (
+        <>
+          <PromoBar></PromoBar>
+          <Nav />
+          <HeroCarousel />
+          <CallToAction
+            header="Shop New Arrivals"
+            info="Our coolest new items are waiting for you!"
+          />
+          <Gallery />
+          <ProductCarousel category="Shop New Arrivals" />
+          <img
+            src={hero4}
+            alt="display image"
+            style={{ width: "100%", marginTop: "50px", marginBottom: "-5px" }}
+          />
+          <CallToAction
+            header="Our Favorite Tees"
+            info="Everyday tees you need!"
+          />
+          <Subscribe />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }

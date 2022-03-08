@@ -6,8 +6,8 @@ import ShopBtn from "./ShopBtn";
 function CallToAction(props) {
   return (
     <div className="CallToAction">
-      <h1 className="CallToAction-header">{props.header}</h1>
-      <p className="CallToAction-info">{props.info}</p>
+      <h1 className="CallToAction-header" style={{color: props.color}}>{props.header}</h1>
+      <p className="CallToAction-info" style={{color: props.color}}>{props.info}</p>
       <ShopBtn/>
     </div>
   )

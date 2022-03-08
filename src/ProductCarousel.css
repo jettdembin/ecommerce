@@ -1,3 +1,12 @@
+.ProductCarousel {
+}
+
+.ProductCarousel-carousel-cntr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .ProductCarousel-header {
   text-align: center;
   font-family: 'Pacifico', cursive;
@@ -8,12 +17,15 @@
 .ProductCarousel-main-slide-cntr {
   height: auto;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ProductCarousel-main-slide {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 .ProductCarousel {
@@ -38,6 +50,36 @@
   background-color: black;
   opacity: 1;
   outline: black;
+}
+
+@media screen and (min-width: 350px) {
+  .ProductCarousel-main-slide-cntr {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .ProductCarousel-main-slide-cntr {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .ProductCarousel-main-slide-cntr {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .ProductCarousel-main-slide-cntr {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .ProductCarousel {
+  height: 580px;
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

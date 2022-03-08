@@ -1,6 +1,5 @@
 .CallToAction {
   background-color: #EFEFEF;
-  color: #10504F;
   height: 177px;
   display: flex;
   flex-direction: column;
@@ -17,10 +16,22 @@
 }
 
 .CallToAction-info {
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
+  font-weight: bold;
   margin-top: 6px;
   margin-bottom: 14px;
 }
 
+
+@media screen and (min-width: 480px) {
+  .CallToAction {
+    margin-top: -110px;
+  }
+  .CallToAction-info {
+    margin-top: 9px;
+    margin-bottom: 26px;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

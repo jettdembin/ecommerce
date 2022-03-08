@@ -1,0 +1,47 @@
+.HeroSlide {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 638px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.HeroSlide .CallToAction {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+
+@media screen and (min-width: 480px) {
+  .HeroSlide .CallToAction-header {
+    font-size: 40px;
+  }
+  .HeroSlide .CallToAction-info {
+    font-size: 20px;
+  }
+  .HeroSlide .CallToAction {
+    margin-left: 100px;
+    margin-top: -110px;
+  }
+  .HeroSlide .CallToAction-info {
+    margin-top: 9px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .HeroSlide .CallToAction-header {
+    font-size: 60px;
+  }
+  .HeroSlide .CallToAction-info {
+    font-size: 26px;
+  }
+  .HeroSlide .CallToAction {
+    margin-left: 200px;
+  }
+}
