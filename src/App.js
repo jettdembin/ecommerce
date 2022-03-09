@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 
-import PromoBar from "./PromoBar";
-import Nav from "./Nav";
+import PromoBar from "./PromoBar/PromoBar";
+import Nav from "./Nav/Nav";
 import HeroCarousel from "./HeroCarousel/HeroCarousel";
-import CallToAction from "./CallToAction";
+import CallToAction from "./CallToAction/CallToAction";
 import Gallery from "./Gallery/Gallery";
 import ProductCarousel from "./ProductCarousel/ProductCarousel";
 import HeroSlide from "./HeroCarousel/HeroSlide/HeroSlide";
-import Subscribe from "./Subscribe";
-import Footer from "./Footer";
+import Subscribe from "./Subscribe/Subscribe";
+import Footer from "./Footer/Footer";
 
 import hero4 from "./images/hero-4-mobile.jpg";
 

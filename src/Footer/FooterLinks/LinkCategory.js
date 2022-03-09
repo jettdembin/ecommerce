@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./LinkCategory.css";
 
-import * as mui from "./mui";
+import * as mui from "../../mui/index";
 
 import { useMediaQuery } from "react-responsive";
 

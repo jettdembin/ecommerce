@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./Subscribe.css";
-import { EmailIcon } from "./mui/index";
+import { EmailIcon } from "../mui/index";
 
 import { useMediaQuery } from "react-responsive";
 

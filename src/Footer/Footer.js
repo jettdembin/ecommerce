@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
-import * as mui from "./mui";
+import * as mui from "../mui/index";
 
-import LinkCategory from "./LinkCategory";
+import LinkCategory from "./FooterLinks/LinkCategory";
 
 import { useMediaQuery } from "react-responsive";
 

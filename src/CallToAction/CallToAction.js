@@ -1,7 +1,7 @@
 import React from "react";
 import "./CallToAction.css";
 
-import ShopBtn from "./ShopBtn";
+import ShopBtn from "./CallToActionBtn/ShopBtn";
 
 function CallToAction(props) {
   return (
