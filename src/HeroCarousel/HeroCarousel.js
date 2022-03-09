@@ -1,19 +1,19 @@
 import React from "react";
 import "./HeroCarousel.css";
 
-import HeroSlide from "./HeroSlide";
+import HeroSlide from "./HeroSlide/HeroSlide";
 
 import { Carousel } from "react-responsive-carousel";
 
 import { useMediaQuery } from "react-responsive";
 
-import hero1Mobile from "./images/hero-1-mobile.jpg";
-import hero2Mobile from "./images/hero-2-mobile.jpg";
-import hero3Mobile from "./images/hero-3-mobile.jpg";
+import hero1Mobile from "../images/hero-1-mobile.jpg";
+import hero2Mobile from "../images/hero-2-mobile.jpg";
+import hero3Mobile from "../images/hero-3-mobile.jpg";
 
-import hero1Desktop from "./images/hero-1-desktop.jpg";
-import hero2Desktop from "./images/hero-2-desktop.jpg";
-import hero3Desktop from "./images/hero-3-desktop.jpg";
+import hero1Desktop from "../images/hero-1-desktop.jpg";
+import hero2Desktop from "../images/hero-2-desktop.jpg";
+import hero3Desktop from "../images/hero-3-desktop.jpg";
 
 function HeroCarousel() {
   const checkIfMediumPlus = useMediaQuery({

@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeroSlide.css'
 
-import CallToAction from './CallToAction';
+import CallToAction from '../../CallToAction';
 
 function HeroSlide(props) {
   return(
