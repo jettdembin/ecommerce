@@ -5,12 +5,12 @@ This landing page was built with React.js
 # LIQUID CHALLENGE QUESTIONS AND ANSWERS
 
 
-{% comment %} Password for website is “password”
-1.	‘Describe how you would make a line of text in a homepage section editable from theme customization and how you would access this in liquid.’
+Password for website is “password”
+# 1. ‘Describe how you would make a line of text in a homepage section editable from theme customization and how you would access this in liquid.’
 
 Once logged in through Shopify Partners and into the selected website, you must navigate to Sales Channels and into Themes. Then you must click Actions on the desired theme that needs to be edited. It will give you a dropdown from which you will want to choose edit code. 
 
-Once chosen, you will go to the section that needs to be edited. Please see a slider “Section” I added to a Shopify Homepage that I created. https://hillside-coffee2.myshopify.com/ {% endcomment %}
+Once chosen, you will go to the section that needs to be edited. Please see a slider “Section” I added to a Shopify Homepage that I created. https://hillside-coffee2.myshopify.com/ 
 
 <div class="testimonial-slider">
 
@@ -72,8 +72,8 @@ Once chosen, you will go to the section that needs to be edited. Please see a sl
 {% endschema %}
 
 
-{% comment %} 2.	“How would you add the collection featured image as a banner on the collection liquid template?” 
-{% endcomment %}
+# 2.	“How would you add the collection featured image as a banner on the collection liquid template?” 
+
 
 First you must open the /sections/collection-template.liquid file and look for code that has the collection.title and collection.description. For example:
 <header class="section-header">
@@ -92,9 +92,8 @@ Then you must add a conditional to show the image if there is one. For example:
   {% if collection.image %}<div><img src="{{ collection.image | img_url: 'medium' }}" /></div>{% endif %}
 </header>
 
-{% comment %} 
-3.	 a simple pagination container, "< 1 2 ... 5 >". 
-{% endcomment %}
+
+# 3. Simple pagination container, "< 1 2 ... 5 >". 
 
 
 {%- paginate blog.articles by 5 -%}
@@ -106,9 +105,8 @@ Then you must add a conditional to show the image if there is one. For example:
 {%- endpaginate -%}
 
 
-{% comment %} 
-4. “Using liquid code, access the product named "Blue T-Shirt". Store the id, title, handle, price, url, and image in variables.” 
-{% endcomment %}
+
+# 4. “Using liquid code, access the product named "Blue T-Shirt". Store the id, title, handle, price, url, and image in variables.” 
 
 
 {%- assign featured_image = product.featured_image -%}
@@ -121,7 +119,7 @@ Then you must add a conditional to show the image if there is one. For example:
 {%- assign product_price = product.url -%}
 
 
-{% comment %} 5.	Using liquid code, create a key:value array using the list below. Loop through the array. Upon key type, store the value in a variable to be used later: {% endcomment %}
+# 5.	Using liquid code, create a key:value array using the list below. Loop through the array. Upon key type, store the value in a variable to be used later: 
 
 
 {% assign products = 'fruit:apple,vegetable:carrot,cloth:t-shirt,denim:jeans' %}
