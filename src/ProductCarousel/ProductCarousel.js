@@ -1,13 +1,13 @@
 import React from "react";
 import "./ProductCarousel.css";
 
-import Product from "./Product";
+import Product from "./Product/Product";
 
 import { Carousel } from "react-responsive-carousel";
 
 import { useMediaQuery } from "react-responsive";
 
-import product1 from "./images/product-1-image.jpg";
+import product1 from "../images/product-1-image.jpg";
 
 
 function ProductCarousel(props) {
