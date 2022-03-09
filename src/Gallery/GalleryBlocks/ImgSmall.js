@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImgSmall.css";
 
-import Category from "./Category";
+import Category from "./CategoryTitle/Category";
 
 function ImgSmall(props) {
   return (

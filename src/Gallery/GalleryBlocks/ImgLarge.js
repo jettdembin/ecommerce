@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImgLarge.css";
 
-import Category from "./Category";
+import Category from "./CategoryTitle/Category";
 
 function ImgLarge(props) {
   return (

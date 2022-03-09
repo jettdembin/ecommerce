@@ -5,7 +5,7 @@ import PromoBar from "./PromoBar";
 import Nav from "./Nav";
 import HeroCarousel from "./HeroCarousel/HeroCarousel";
 import CallToAction from "./CallToAction";
-import Gallery from "./Gallery";
+import Gallery from "./Gallery/Gallery";
 import ProductCarousel from "./ProductCarousel";
 import HeroSlide from "./HeroCarousel/HeroSlide/HeroSlide";
 import Subscribe from "./Subscribe";
