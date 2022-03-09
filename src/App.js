@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 import PromoBar from "./PromoBar/PromoBar";
@@ -22,6 +22,10 @@ function App() {
     query: "(min-width: 850px)",
   });
 
+  const [isVisible, setIsVisible] = useState(false);
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
   return (
     <div className="App">
       {checkIfMediumPlus ? (
