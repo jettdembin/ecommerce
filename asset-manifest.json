@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.d974f84a.css",
-    "main.js": "/ecommerce/static/js/main.ad7098c1.js",
+    "main.css": "/ecommerce/static/css/main.5fc256be.css",
+    "main.js": "/ecommerce/static/js/main.1d26c996.js",
     "static/js/787.dcc73137.chunk.js": "/ecommerce/static/js/787.dcc73137.chunk.js",
     "static/media/hero-2-desktop.jpg": "/ecommerce/static/media/hero-2-desktop.0cfdba71f2b34df382ab.jpg",
     "static/media/hero-2-mobile.jpg": "/ecommerce/static/media/hero-2-mobile.0cfdba71f2b34df382ab.jpg",
@@ -17,12 +17,12 @@
     "static/media/hero-1-mobile.jpg": "/ecommerce/static/media/hero-1-mobile.aa201587451cbf808c4e.jpg",
     "static/media/accessories-mobile.jpg": "/ecommerce/static/media/accessories-mobile.14dcef094efced8608fc.jpg",
     "index.html": "/ecommerce/index.html",
-    "main.d974f84a.css.map": "/ecommerce/static/css/main.d974f84a.css.map",
-    "main.ad7098c1.js.map": "/ecommerce/static/js/main.ad7098c1.js.map",
+    "main.5fc256be.css.map": "/ecommerce/static/css/main.5fc256be.css.map",
+    "main.1d26c996.js.map": "/ecommerce/static/js/main.1d26c996.js.map",
     "787.dcc73137.chunk.js.map": "/ecommerce/static/js/787.dcc73137.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d974f84a.css",
-    "static/js/main.ad7098c1.js"
+    "static/css/main.5fc256be.css",
+    "static/js/main.1d26c996.js"
   ]
 }
