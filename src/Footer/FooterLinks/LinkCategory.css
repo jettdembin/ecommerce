@@ -40,9 +40,6 @@
   cursor: pointer;
 }
 
-.show {
-}
-
 @media screen and (min-width: 480px) {
   .LinkCategory-link-cntr {
     font-size: 16px;

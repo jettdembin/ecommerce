@@ -54,9 +54,9 @@ function LinkCategory(props) {
         </div>
         <div className="LinkCategory-link-cntr-wrapper">
           <ul className="LinkCategory-link-cntr">
-          {props.links.map(link => (
+          {props.links.map((link,i) => (
             <>
-              <li className="LinkCategory-link">{link}</li>
+              <li className="LinkCategory-link" key={i}>{link}</li>
             </>
           ))}
           </ul>
@@ -90,9 +90,9 @@ function LinkCategory(props) {
                 animate={ isVisible ? 'visible' : 'hidden'}
                 variants={list} 
                 className="LinkCategory-link-cntr">
-                {props.links.map(link => (
+                {props.links.map((link,i) => (
                   <>
-                    <motion.li className="LinkCategory-link" variants={item}>{link}</motion.li>
+                    <motion.li className="LinkCategory-link" variants={item} key={i} >{link}</motion.li>
                   </>
                 ))}
               </motion.ul>
