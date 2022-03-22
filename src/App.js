@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 import PromoBar from "./PromoBar/PromoBar";
@@ -26,6 +26,11 @@ function App() {
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
   };
+
+  useEffect(() => {
+    document.title = "Ecommerce Website";
+  }, []);
+
   return (
     <div className="App">
       {checkIfMediumPlus ? (
